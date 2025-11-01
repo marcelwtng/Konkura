@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Konkura - Competition Intelligence Platform | Coming Soon</title>
+    <title>konkura - Competition Intelligence Platform | Coming Soon</title>
     <meta name="description" content="Konkura - Your personal antitrust navigator. Professional competition analysis platform launching soon.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
         
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f9fafb;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -27,118 +27,23 @@
         
         .container {
             text-align: center;
-            color: white;
+            color: #1e3a56;
             padding: 40px 20px;
             max-width: 800px;
             width: 100%;
         }
         
-        /* Large Marketing Logo */
+        /* Logo */
         .logo-container {
             margin-bottom: 48px;
             display: flex;
             justify-content: center;
         }
-        
-        .logo-marketing {
-            position: relative;
+
+        .logo-svg {
             width: 240px;
             height: 240px;
-            filter: drop-shadow(0 8px 32px rgba(0,0,0,0.2));
-        }
-        
-        .logo-ring {
-            position: absolute;
-            width: 240px;
-            height: 240px;
-            top: 0;
-            left: 0;
-        }
-        
-        .logo-ring2 {
-            width: 168px;
-            height: 168px;
-            top: 36px;
-            left: 36px;
-        }
-        
-        .logo-ring3 {
-            width: 96px;
-            height: 96px;
-            top: 72px;
-            left: 72px;
-        }
-        
-        .logo-dot {
-            position: absolute;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 50%;
-            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
-            animation: pulse 3s infinite ease-in-out;
-        }
-        
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.9; }
-            50% { transform: scale(1.1); opacity: 1; }
-        }
-        
-        /* Outer ring dots */
-        .logo-ring .logo-dot {
-            width: 18px;
-            height: 18px;
-        }
-        
-        .logo-ring .logo-dot:nth-child(1) { top: 0; left: 111px; animation-delay: 0s; }
-        .logo-ring .logo-dot:nth-child(2) { top: 33px; right: 33px; animation-delay: 0.2s; }
-        .logo-ring .logo-dot:nth-child(3) { top: 111px; right: 0; animation-delay: 0.4s; }
-        .logo-ring .logo-dot:nth-child(4) { bottom: 33px; right: 33px; animation-delay: 0.6s; }
-        .logo-ring .logo-dot:nth-child(5) { bottom: 0; left: 111px; animation-delay: 0.8s; }
-        .logo-ring .logo-dot:nth-child(6) { bottom: 33px; left: 33px; animation-delay: 1s; }
-        .logo-ring .logo-dot:nth-child(7) { top: 111px; left: 0; animation-delay: 1.2s; }
-        .logo-ring .logo-dot:nth-child(8) { top: 33px; left: 33px; animation-delay: 1.4s; }
-        
-        /* Middle ring dots */
-        .logo-ring2 .logo-dot {
-            width: 15px;
-            height: 15px;
-            background: rgba(255, 255, 255, 0.9);
-        }
-        
-        .logo-ring2 .logo-dot:nth-child(1) { top: 0; left: 76px; animation-delay: 0.3s; }
-        .logo-ring2 .logo-dot:nth-child(2) { top: 24px; right: 24px; animation-delay: 0.5s; }
-        .logo-ring2 .logo-dot:nth-child(3) { top: 76px; right: 0; animation-delay: 0.7s; }
-        .logo-ring2 .logo-dot:nth-child(4) { bottom: 24px; right: 24px; animation-delay: 0.9s; }
-        .logo-ring2 .logo-dot:nth-child(5) { bottom: 0; left: 76px; animation-delay: 1.1s; }
-        .logo-ring2 .logo-dot:nth-child(6) { top: 76px; left: 0; animation-delay: 1.3s; }
-        
-        /* Inner ring dots */
-        .logo-ring3 .logo-dot {
-            width: 12px;
-            height: 12px;
-            background: rgba(255, 255, 255, 0.85);
-        }
-        
-        .logo-ring3 .logo-dot:nth-child(1) { top: 0; left: 42px; animation-delay: 0.4s; }
-        .logo-ring3 .logo-dot:nth-child(2) { top: 15px; right: 15px; animation-delay: 0.8s; }
-        .logo-ring3 .logo-dot:nth-child(3) { top: 42px; right: 0; animation-delay: 1.2s; }
-        .logo-ring3 .logo-dot:nth-child(4) { bottom: 0; left: 42px; animation-delay: 1.6s; }
-        
-        .logo-center {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 36px;
-            height: 36px;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 50%;
-            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
-            animation: centerPulse 2s infinite ease-in-out;
-        }
-        
-        @keyframes centerPulse {
-            0%, 100% { transform: translate(-50%, -50%) scale(1); }
-            50% { transform: translate(-50%, -50%) scale(1.15); }
+            filter: drop-shadow(0 4px 16px rgba(0,0,0,0.1));
         }
         
         .company-name {
@@ -146,50 +51,50 @@
             font-weight: 700;
             margin-bottom: 16px;
             letter-spacing: -2px;
-            text-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            color: #1e3a56;
         }
-        
+
         .tagline {
             font-size: 24px;
-            font-weight: 400;
+            font-weight: 500;
             margin-bottom: 12px;
-            opacity: 0.95;
-            text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            color: #40486a;
         }
-        
+
         .subtitle {
             font-size: 18px;
-            font-weight: 300;
+            font-weight: 400;
             margin-bottom: 48px;
-            opacity: 0.9;
+            color: #6b7280;
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
-            line-height: 1.4;
+            line-height: 1.6;
         }
         
         .coming-soon {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: white;
+            border: 2px solid #e5e7eb;
             border-radius: 16px;
             padding: 40px;
             margin-bottom: 32px;
             max-width: 500px;
             margin-left: auto;
             margin-right: auto;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
         }
-        
+
         .coming-soon h2 {
             font-size: 32px;
             font-weight: 600;
             margin-bottom: 16px;
+            color: #1e3a56;
         }
-        
+
         .coming-soon p {
             font-size: 16px;
-            opacity: 0.9;
-            line-height: 1.5;
+            color: #4b5563;
+            line-height: 1.6;
             margin-bottom: 16px;
         }
         
@@ -204,130 +109,80 @@
         }
         
         .feature {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: white;
+            border: 2px solid #e5e7eb;
             border-radius: 12px;
             padding: 24px;
             text-align: center;
+            transition: all 0.3s ease;
         }
-        
+
+        .feature:hover {
+            border-color: #ed5739;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
         .feature-icon {
-            font-size: 32px;
-            margin-bottom: 12px;
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 16px;
+            display: block;
         }
-        
+
         .feature h3 {
             font-size: 18px;
             font-weight: 600;
             margin-bottom: 8px;
+            color: #1e3a56;
         }
-        
+
         .feature p {
             font-size: 14px;
-            opacity: 0.9;
-            line-height: 1.4;
+            color: #6b7280;
+            line-height: 1.5;
         }
         
         .contact {
             margin-top: 64px;
-            opacity: 0.8;
+            color: #6b7280;
         }
-        
+
         .contact a {
-            color: rgba(255, 255, 255, 0.9);
+            color: #ed5739;
             text-decoration: none;
             font-weight: 500;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            border-bottom: 2px solid rgba(237, 87, 57, 0.3);
             transition: all 0.3s ease;
         }
-        
+
         .contact a:hover {
-            border-bottom-color: rgba(255, 255, 255, 0.6);
+            color: #d94426;
+            border-bottom-color: rgba(237, 87, 57, 0.6);
         }
         
         @media (max-width: 768px) {
             .container {
                 padding: 20px 16px;
             }
-            
-            .logo-marketing {
+
+            .logo-svg {
                 width: 180px;
                 height: 180px;
             }
-            
-            .logo-ring {
-                width: 180px;
-                height: 180px;
-            }
-            
-            .logo-ring2 {
-                width: 126px;
-                height: 126px;
-                top: 27px;
-                left: 27px;
-            }
-            
-            .logo-ring3 {
-                width: 72px;
-                height: 72px;
-                top: 54px;
-                left: 54px;
-            }
-            
-            .logo-ring .logo-dot {
-                width: 14px;
-                height: 14px;
-            }
-            
-            .logo-ring .logo-dot:nth-child(1) { left: 83px; }
-            .logo-ring .logo-dot:nth-child(2) { top: 25px; right: 25px; }
-            .logo-ring .logo-dot:nth-child(3) { top: 83px; }
-            .logo-ring .logo-dot:nth-child(4) { bottom: 25px; right: 25px; }
-            .logo-ring .logo-dot:nth-child(5) { left: 83px; }
-            .logo-ring .logo-dot:nth-child(6) { bottom: 25px; left: 25px; }
-            .logo-ring .logo-dot:nth-child(7) { top: 83px; }
-            .logo-ring .logo-dot:nth-child(8) { top: 25px; left: 25px; }
-            
-            .logo-ring2 .logo-dot {
-                width: 12px;
-                height: 12px;
-            }
-            
-            .logo-ring2 .logo-dot:nth-child(1) { left: 57px; }
-            .logo-ring2 .logo-dot:nth-child(2) { top: 18px; right: 18px; }
-            .logo-ring2 .logo-dot:nth-child(3) { top: 57px; }
-            .logo-ring2 .logo-dot:nth-child(4) { bottom: 18px; right: 18px; }
-            .logo-ring2 .logo-dot:nth-child(5) { left: 57px; }
-            .logo-ring2 .logo-dot:nth-child(6) { top: 57px; }
-            
-            .logo-ring3 .logo-dot {
-                width: 10px;
-                height: 10px;
-            }
-            
-            .logo-ring3 .logo-dot:nth-child(1) { left: 31px; }
-            .logo-ring3 .logo-dot:nth-child(2) { top: 11px; right: 11px; }
-            .logo-ring3 .logo-dot:nth-child(3) { top: 31px; }
-            .logo-ring3 .logo-dot:nth-child(4) { left: 31px; }
-            
-            .logo-center {
-                width: 28px;
-                height: 28px;
-            }
-            
+
             .company-name {
                 font-size: 48px;
             }
-            
+
             .tagline {
                 font-size: 20px;
             }
-            
+
             .subtitle {
                 font-size: 16px;
             }
-            
+
             .features {
                 grid-template-columns: 1fr;
             }
@@ -337,36 +192,10 @@
 <body>
     <div class="container">
         <div class="logo-container">
-            <div class="logo-marketing">
-                <div class="logo-ring">
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                </div>
-                <div class="logo-ring logo-ring2">
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                </div>
-                <div class="logo-ring logo-ring3">
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                    <div class="logo-dot"></div>
-                </div>
-                <div class="logo-center"></div>
-            </div>
+            <img src="konkura-logo-large.svg" alt="Konkura Logo" class="logo-svg">
         </div>
         
-        <h1 class="company-name">Konkura</h1>
+        <h1 class="company-name">konkura</h1>
         <p class="tagline">Competition Intelligence Platform</p>
         <p class="subtitle">Your personal antitrust copilot • Bringing clarity to complex competition</p>
         
@@ -378,17 +207,17 @@
         
         <div class="features">
             <div class="feature">
-                <div class="feature-icon">📊</div>
+                <img src="icons-data.png" alt="Data-Driven" class="feature-icon">
                 <h3>Data-Driven</h3>
                 <p>Advanced HHI analysis and market intelligence</p>
             </div>
-            
+
             <div class="feature">
-                <div class="feature-icon">🤖</div>
+                <img src="icons-ai.svg" alt="AI-Powered" class="feature-icon">
                 <h3>AI-Powered</h3>
                 <p>ALex provides intelligent antitrust insights</p>
             </div>
-            
+
         </div>
     </div>
 </body>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- 2-Color Merch Version: Navy dots + Red-orange center -->
+  <!-- Size: 160px -->
+  
+  <!-- Outer ring dots (7 dots forming K shape, 16.0px diameter) -->
+  <circle cx="80.0" cy="8.0" r="8.0" fill="#40486a" />
+  <circle cx="133.0" cy="27.0" r="8.0" fill="#40486a" />
+  <circle cx="133.0" cy="133.0" r="8.0" fill="#40486a" />
+  <circle cx="80.0" cy="152.0" r="8.0" fill="#40486a" />
+  <circle cx="27.0" cy="133.0" r="8.0" fill="#40486a" />
+  <circle cx="8.0" cy="80.0" r="8.0" fill="#40486a" />
+  <circle cx="27.0" cy="27.0" r="8.0" fill="#40486a" />
+
+  <!-- Inner ring dots (5 dots forming K shape, 16.0px diameter, halfway between outer and center) -->
+  <circle cx="80.0" cy="44.0" r="8.0" fill="#40486a" />
+  <circle cx="106.5" cy="53.5" r="8.0" fill="#40486a" />
+  <circle cx="106.5" cy="106.5" r="8.0" fill="#40486a" />
+  <circle cx="80.0" cy="116.0" r="8.0" fill="#40486a" />
+  <circle cx="44.0" cy="80.0" r="8.0" fill="#40486a" />
+
+  <!-- Center circle (32.0px diameter) -->
+  <circle cx="80.0" cy="80.0" r="16.0" fill="#ed5739" />
+</svg>
