@@ -1,0 +1,12 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main stone gray dots - representing market participants/nodes -->
+  <circle cx="14" cy="12" r="3.5" fill="#44403C"/>
+  <circle cx="28" cy="10" r="2.5" fill="#44403C"/>
+  <circle cx="20" cy="22" r="4" fill="#44403C"/>
+  <circle cx="34" cy="20" r="2" fill="#44403C"/>
+  <circle cx="12" cy="32" r="2.5" fill="#44403C"/>
+  <circle cx="26" cy="34" r="3" fill="#44403C"/>
+
+  <!-- Accent dot - warm amber highlight representing competitive advantage -->
+  <circle cx="36" cy="32" r="3.5" fill="#B45309"/>
+</svg>

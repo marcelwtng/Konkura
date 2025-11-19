@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
-  <!-- Konkura Corporate Identity Logo -->
-  <!-- Network/Competition visualization with 7 dots representing market participants -->
+<svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Konkura Corporate Identity Logo with Text -->
+  <!-- Network/Competition visualization + "konkura" wordmark -->
   <!-- Stone Gray (#44403C) + Warm Amber (#B45309) -->
 
-  <!-- Scale factor: 240/48 = 5x -->
+  <!-- Icon: 7 dots representing market participants (scaled to fit 80px height) -->
+  <g transform="translate(10, 10)">
+    <!-- Main stone gray dots - representing market participants/nodes -->
+    <circle cx="23.33" cy="20" r="5.83" fill="#44403C" />
+    <circle cx="46.67" cy="16.67" r="4.17" fill="#44403C" />
+    <circle cx="33.33" cy="36.67" r="6.67" fill="#44403C" />
+    <circle cx="56.67" cy="33.33" r="3.33" fill="#44403C" />
+    <circle cx="20" cy="53.33" r="4.17" fill="#44403C" />
+    <circle cx="43.33" cy="56.67" r="5" fill="#44403C" />
 
-  <!-- Main stone gray dots - representing market participants/nodes -->
-  <circle cx="70" cy="60" r="17.5" fill="#44403C" />
-  <circle cx="140" cy="50" r="12.5" fill="#44403C" />
-  <circle cx="100" cy="110" r="20" fill="#44403C" />
-  <circle cx="170" cy="100" r="10" fill="#44403C" />
-  <circle cx="60" cy="160" r="12.5" fill="#44403C" />
-  <circle cx="130" cy="170" r="15" fill="#44403C" />
+    <!-- Accent dot - warm amber highlight representing competitive advantage -->
+    <circle cx="60" cy="53.33" r="5.83" fill="#B45309" />
+  </g>
 
-  <!-- Accent dot - warm amber highlight representing competitive advantage -->
-  <circle cx="180" cy="160" r="17.5" fill="#B45309" />
+  <!-- "konkura" text - lowercase, medium weight, tight tracking -->
+  <text x="90" y="52" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="42" font-weight="500" fill="#1C1917" letter-spacing="-1">konkura</text>
 </svg>
