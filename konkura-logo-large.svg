@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-  <!-- 2-Color Merch Version: Navy dots + Red-orange center -->
-  <!-- Size: 160px -->
-  
-  <!-- Outer ring dots (7 dots forming K shape, 16.0px diameter) -->
-  <circle cx="80.0" cy="8.0" r="8.0" fill="#40486a" />
-  <circle cx="133.0" cy="27.0" r="8.0" fill="#40486a" />
-  <circle cx="133.0" cy="133.0" r="8.0" fill="#40486a" />
-  <circle cx="80.0" cy="152.0" r="8.0" fill="#40486a" />
-  <circle cx="27.0" cy="133.0" r="8.0" fill="#40486a" />
-  <circle cx="8.0" cy="80.0" r="8.0" fill="#40486a" />
-  <circle cx="27.0" cy="27.0" r="8.0" fill="#40486a" />
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Konkura Corporate Identity Logo -->
+  <!-- Network/Competition visualization with 7 dots representing market participants -->
+  <!-- Stone Gray (#44403C) + Warm Amber (#B45309) -->
 
-  <!-- Inner ring dots (5 dots forming K shape, 16.0px diameter, halfway between outer and center) -->
-  <circle cx="80.0" cy="44.0" r="8.0" fill="#40486a" />
-  <circle cx="106.5" cy="53.5" r="8.0" fill="#40486a" />
-  <circle cx="106.5" cy="106.5" r="8.0" fill="#40486a" />
-  <circle cx="80.0" cy="116.0" r="8.0" fill="#40486a" />
-  <circle cx="44.0" cy="80.0" r="8.0" fill="#40486a" />
+  <!-- Scale factor: 240/48 = 5x -->
 
-  <!-- Center circle (32.0px diameter) -->
-  <circle cx="80.0" cy="80.0" r="16.0" fill="#ed5739" />
+  <!-- Main stone gray dots - representing market participants/nodes -->
+  <circle cx="70" cy="60" r="17.5" fill="#44403C" />
+  <circle cx="140" cy="50" r="12.5" fill="#44403C" />
+  <circle cx="100" cy="110" r="20" fill="#44403C" />
+  <circle cx="170" cy="100" r="10" fill="#44403C" />
+  <circle cx="60" cy="160" r="12.5" fill="#44403C" />
+  <circle cx="130" cy="170" r="15" fill="#44403C" />
+
+  <!-- Accent dot - warm amber highlight representing competitive advantage -->
+  <circle cx="180" cy="160" r="17.5" fill="#B45309" />
 </svg>
